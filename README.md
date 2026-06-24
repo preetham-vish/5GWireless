@@ -15,7 +15,7 @@ The following table summarizes the various 5G Core and RAN implementations avail
 
 ---
 
-### 💻 System Specifications & Hardware
+### System Specifications & Hardware
 All setups were tested and verified on two **Ubuntu 22.04 LTS** (Jammy) machines.
 
 * **Processor:** Intel i7-7700 (8 cores) @ 4.200GHz
