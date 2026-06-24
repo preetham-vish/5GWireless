@@ -20,7 +20,7 @@ sudo apt-get install -y build-essential git cmake python3 python3-pip python3-de
 echo "--- Step 2: Python Dependencies ---"
 pip3 install --upgrade pip
 pip3 install cppyy
-python3 -c "import cppyy; print('✅ cppyy pre-installed:', cppyy.__version__)"
+python3 -c "import cppyy; print(' cppyy pre-installed:', cppyy.__version__)"
 
 echo "--- Step 3: Setup ns-3.46 ---"
 # Install ns-3 in the user's home folder to ensure write permissions
@@ -51,7 +51,7 @@ echo "--- Step 6: Launching Digital Twin ---"
 cd "$SCRIPT_DIR"
 
 if [ -f "dt.py" ]; then
-    echo "🚀 Starting Digital Twin..."
+    echo "Starting Digital Twin..."
     python3 dt.py
 else
     echo "❌ Error: dt.py not found in $SCRIPT_DIR"
