@@ -1,4 +1,4 @@
-### 🚀 5G Projects & Implementations
+### 5G Projects & Implementations
 
 The following table summarizes the various 5G Core and RAN implementations available in this repository.
 
