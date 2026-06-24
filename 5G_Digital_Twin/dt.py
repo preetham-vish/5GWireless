@@ -1,34 +1,3 @@
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-   
-
 import math, random, time, threading, json, signal, sys, collections
 import struct, os, io, hashlib, ipaddress
 from http.server import HTTPServer, BaseHTTPRequestHandler
